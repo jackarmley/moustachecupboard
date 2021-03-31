@@ -3,10 +3,9 @@
   padding: 0;
 }
 
-body {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
+.logo {
+  block-size: 100vh;
+  display: block;
+  inline-size: 100vw;
+  object-fit: contain;
 }

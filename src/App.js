@@ -3,10 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <main>
-      <h1>Moustache Cupboard</h1>
-      <p>Coming soon...</p>
-    </main>
+    <img className="logo" src={process.env.PUBLIC_URL + '/logo.png'} alt="Moustache Cupboard" />
   );
 }
 
